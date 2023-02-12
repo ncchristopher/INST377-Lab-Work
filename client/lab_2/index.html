@@ -5,17 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Noel Christopher's Labs</title>
-  <link rel='stylesheet' href='styles.css'/>
+  <link rel='stylesheet' href='style.css'/>
 </head>
 <body>
-  <div>
-    <header>
+  <div class="wrapper">
+    <header class="header">
       <h1>Noel Christopher's Labs for INST377</h1>
     </header>
-    <div>
-      <div class="left_section">
+    <div class="container">
+      <div class="left_section box">
         <header><h3>Album Names</h3></header>
-        <ol>
+        <ol class="box">
           <li>good kid, m.A.A.d city - Kendrick Lamar</li>
           <li>Graduation - Kanye West</li>
           <li>LIVE.LOVE.A$AP - A$AP Rocky</li>
@@ -23,28 +23,22 @@
           <li>T R A P S O U L - Bryson Tiller</li>
         </ol>
       </div>
-      <div class="right_section">
+      <div class="right_section box">
         <header><h3>Image Carousel</h3></header>
-          <div>
+          <div class="grid">
             <img src="images/mochi.gif" alt="bouncing mochi"/>
             <img src="images/mochi.jpg" alt="bubble mochi"/>
             <img src="images/mochi.png" alt="mochi ball"/>
             <img src="images/mochi.svg" alt="mochi w/ bezier handles"/>
           </div>
-          <div>
+          <div class="box">
             <p>Mochi Balls</p>
           </div>
       </div>
     </div>
   </div>
-  <footer><a href="http://github.com/ncchristopher/" target="blank" rel="nooperner noreferrer">My GitHub</a></footer>
+  <footer class="footer">
+    <a href="http://github.com/ncchristopher/" target="blank" rel="nooperner noreferrer">My GitHub</a>
+  </footer>
 </body>
 </html>
-Hook it up to CSS by including style.css in the <head> tag
-
-Then add CSS class names to your HTML to make it look like the lab pictures.
-For example: <div class="selector">
-
-You should not need to edit the CSS to do this, only the HTML.
-
-Don't forget to add an actual set of image descriptions to your image carousel.
