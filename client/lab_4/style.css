@@ -30,7 +30,7 @@ body {
   font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  background-color: rgb(239, 239, 239);
+  background-color: rgb(255, 230, 167);
 }
 
 
@@ -92,8 +92,8 @@ form {
   /* this will push other blocks out of the way */
 
   /* colors */
-  background-color: #ffe08a;
-  color: #4a4a4a;
+  background-color: #721817;
+  color: #ffffff;
 
   /* shapes */
   border-radius: 6px;
@@ -128,18 +128,21 @@ form {
 }
 
 .left_section {
-  background-color: rgba(0, 139, 139, 0.8);
+  background-color: rgba(136, 204, 241, 0.8);
   flex: 0 1 auto;
   margin: 1rem;
   padding: 1.5rem;
 }
 
 .right_section {
-  background-color: rgba(255, 224, 138, 0.7);
+  background-color: rgba(8, 103, 136, 0.7);
   flex: 1 2 auto;
   margin: 1rem;
   align-items: center;
+  justify-content: center;
   max-width: 450px;
+  display: flex;
+  flex-flow: column;
 }
 
 /*
@@ -151,13 +154,13 @@ form {
 .footer {
   flex-shrink: 0;
   padding: 1rem;
-  background-color: rgba(0, 139, 139, 0.8);
+  background-color: rgba(3, 43, 88, 0.8);
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .footer a {
-  color: rgba(255, 224, 138, 1);
+  color: rgba(136, 204, 241, 1);
   text-decoration: underline;
 }
 
@@ -301,5 +304,8 @@ form input {
     /* check it out by using your developer tools to shrink your screen-size */
     .container {
       background-color: rgba(204, 8, 162, 0.65);
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 }
